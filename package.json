@@ -4,14 +4,15 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "lint": "eslint --ext .js,.ts,.tsx .",
-    "precommit": "yarn lint",
-    "start": "next start"
+    "precommit": "yarn lint"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "isomorphic-unfetch": "3.0.0",
     "next": "latest",
+    "next-build-id": "^3.0.0",
     "next-fonts": "^1.0.3",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
