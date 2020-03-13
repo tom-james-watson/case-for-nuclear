@@ -8,7 +8,7 @@ const IndexPage: NextPage = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Home | Next.js + TypeScript Example</title>
+        <title>The Case For Nuclear</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <style dangerouslySetInnerHTML={{__html: `
