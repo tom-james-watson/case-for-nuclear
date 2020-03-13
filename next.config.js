@@ -9,7 +9,7 @@ module.exports = withFonts(
       importLoaders: 1,
       localIdentName: "[local]___[hash:base64:5]",
     },
-    generateBuildId: () => nextBuildId({ dir: __dirname })
+    generateBuildId: () => nextBuildId({ dir: __dirname }),
     webpack(config, options) {
       return config;
     }
