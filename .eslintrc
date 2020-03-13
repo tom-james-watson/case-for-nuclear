@@ -1,0 +1,54 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "browser": true,
+  },
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint-config-tomjwatson",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "rules": {
+    "@typescript-eslint/typedef": 2,
+    "@typescript-eslint/indent": ["error", 2],
+    "prefer-const": 2,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-no-bind": 0,
+    "default-case": 0,
+    "no-case-declarations": 0,
+    "operator-linebreak": 0,
+    "object-curly-newline": 0,
+    "no-catch-shadow": 0,
+    "no-async-promise-executor": 0,
+    "require-atomic-updates": 0,
+    "import/newline-after-import": 0,
+    "react/jsx-boolean-value": 0,
+    "@typescript-eslint/camelcase": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "@typescript-eslint/member-delimiter-style": ["error", {
+      multiline: {
+        delimiter: 'none',
+        requireLast: false,
+      },
+      singleline: {
+        requireLast: false,
+      },
+    }],
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0
+  }
+}
