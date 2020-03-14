@@ -6,7 +6,6 @@ export default function Hero() {
     <section className={styles.hero}>
       <div className={styles.heroCover}>
         <div className={styles.heroImage} />
-        <div className={styles.heroImageFilter} />
       </div>
       <h1 className={styles.heroTitle}>The Case For Nuclear</h1>
       <h2 className={styles.heroSubtitle}>Why we must rethink our plan for low-carbon energy</h2>
