@@ -4,11 +4,27 @@
   body{
     font-family: 'Roboto';
     margin: 0;
-    background: $dark-gray1;
-    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
   }
 }
 
-.redCallout {
+.callout {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: $pt-grid-size * 4;
+}
+
+@media only screen and (max-width: 1024px) {
+  .callout {
+    font-size: 28px;
+    margin-bottom: $pt-grid-size * 2;
+  }
+}
+
+.red {
+  font-weight: 600;
   color: $red5;
 }

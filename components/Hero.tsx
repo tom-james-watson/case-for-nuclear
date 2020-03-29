@@ -3,7 +3,7 @@ import styles from './Hero.scss'
 
 export default function Hero() {
   return (
-    <section className={styles.hero}>
+    <section className={`${styles.hero} bp3-dark`}>
       <div>
         <span className={styles.heroTitle}>The</span>
         <span className={styles.heroTitle}>Case</span>
