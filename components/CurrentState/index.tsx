@@ -7,9 +7,8 @@ export default function CurrentState() {
   return (
     <Section>
       <p className={globalStyles.callout}>Current estimates suggest that we have <span className={globalStyles.red}>5 years</span> left to address climate change</p>
-      <p>This is just a typography example, the real content will come later.</p>
       <ExampleGraph />
-      <p>That was just an example chart to test out the graphing library I'm looking at.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </Section>
   )
 }

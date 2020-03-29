@@ -8,7 +8,6 @@ const data = [
     "Coal": 169,
     "Wind": 168,
     "Solar": 36,
-    "Hydro": 27
   },
   {
     "Nuclear": 69,
@@ -16,7 +15,6 @@ const data = [
     "Coal": 29,
     "Wind": 57,
     "Solar": 64,
-    "Hydro": 164
   },
   {
     "Nuclear": 176,
@@ -24,7 +22,6 @@ const data = [
     "Coal": 92,
     "Wind": 178,
     "Solar": 32,
-    "Hydro": 31
   },
   {
     "Nuclear": 152,
@@ -32,7 +29,6 @@ const data = [
     "Coal": 159,
     "Wind": 85,
     "Solar": 123,
-    "Hydro": 39
   },
   {
     "Nuclear": 16,
@@ -40,7 +36,6 @@ const data = [
     "Coal": 119,
     "Wind": 118,
     "Solar": 107,
-    "Hydro": 75
   },
   {
     "Nuclear": 182,
@@ -48,7 +43,6 @@ const data = [
     "Coal": 66,
     "Wind": 168,
     "Solar": 125,
-    "Hydro": 43
   },
   {
     "Nuclear": 13,
@@ -56,7 +50,6 @@ const data = [
     "Coal": 142,
     "Wind": 138,
     "Solar": 176,
-    "Hydro": 22
   },
   {
     "Nuclear": 131,
@@ -64,7 +57,6 @@ const data = [
     "Coal": 196,
     "Wind": 183,
     "Solar": 46,
-    "Hydro": 69
   },
   {
     "Nuclear": 30,
@@ -72,7 +64,6 @@ const data = [
     "Coal": 118,
     "Wind": 46,
     "Solar": 51,
-    "Hydro": 134
   }
 ]
 
@@ -86,8 +77,8 @@ export default function ExampleGraph() {
     <div style={{height: 500, marginTop: 40, marginBottom: 40}}>
       <ResponsiveStream
         data={data}
-        keys={['Nuclear', 'Gas', 'Coal', 'Wind', 'Solar', 'Hydro']}
-        margin={{right: 85, left: 30}}
+        keys={['Nuclear', 'Gas', 'Coal', 'Wind', 'Solar']}
+        margin={{bottom: 60, left: 30, right: 10}}
         axisTop={null}
         axisRight={null}
         axisBottom={{
@@ -146,10 +137,10 @@ export default function ExampleGraph() {
         motionDamping={15}
         legends={[
           {
-            anchor: 'bottom-right',
-            direction: 'column',
-            translateX: 100,
-            itemWidth: 80,
+            anchor: 'bottom',
+            direction: 'row',
+            translateY: 60,
+            itemWidth: 60,
             itemHeight: 20,
             itemTextColor: '#999999',
             symbolSize: 12,
