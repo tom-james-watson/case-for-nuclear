@@ -9,6 +9,7 @@
     "precommit": "yarn lint"
   },
   "dependencies": {
+    "@blueprintjs/core": "^3.24.0",
     "@zeit/next-sass": "^1.0.1",
     "isomorphic-unfetch": "3.0.0",
     "next": "latest",

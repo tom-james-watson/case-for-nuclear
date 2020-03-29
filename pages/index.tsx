@@ -6,11 +6,14 @@ import './Global.scss'
 
 const IndexPage: NextPage = () => {
   return (
-    <React.Fragment>
+    <div className='bp3-dark'>
       <Head>
         <title>The Case For Nuclear</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@^7.0.0" />
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/@blueprintjs/core@^3.24.0/lib/css/blueprint.css" />
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/@blueprintjs/icons@^3.14.0/lib/css/blueprint-icons.css" />
         <style dangerouslySetInnerHTML={{__html: `
           @font-face {
             font-family: 'Roboto';
@@ -82,7 +85,7 @@ const IndexPage: NextPage = () => {
         <hr />
         <span>(Footer)</span>
       </footer>
-    </React.Fragment>
+    </div>
   )
 }
 

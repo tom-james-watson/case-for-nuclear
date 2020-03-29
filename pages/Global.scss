@@ -1,6 +1,9 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
 :global {
   body{
     font-family: 'Roboto';
     margin: 0;
+    background: $dark-gray1;
   }
 }
