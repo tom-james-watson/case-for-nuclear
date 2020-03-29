@@ -87,7 +87,7 @@ export default function ExampleGraph() {
       <ResponsiveStream
         data={data}
         keys={['Nuclear', 'Gas', 'Coal', 'Wind', 'Solar', 'Hydro']}
-        margin={{top: 50, right: 110, bottom: 50, left: 60}}
+        margin={{right: 85, left: 30}}
         axisTop={null}
         axisRight={null}
         axisBottom={{
