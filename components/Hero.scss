@@ -12,8 +12,8 @@
   .heroSubtitle {
     display: block;
     z-index: 1;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: $pt-grid-size;
+    margin-right: $pt-grid-size;
   }
 
   .heroTitle {
@@ -30,7 +30,7 @@
   .heroSubtitle {
     font-size: 32px;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: $pt-grid-size * 2;
   }
 
    @media only screen and (max-width: 1024px) {

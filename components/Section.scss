@@ -1,0 +1,16 @@
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+.section {
+  width: 100%;
+  max-width: 800px;
+  margin: $pt-grid-size * 4 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+
+  .sectionContent {
+    margin: 0 $pt-grid-size;
+  }
+}

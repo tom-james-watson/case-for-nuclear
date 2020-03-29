@@ -2,7 +2,8 @@ import * as React from 'react'
 import Head from 'next/head'
 import {NextPage} from 'next'
 import Hero from '../components/Hero'
-import './Global.scss'
+import Section from '../components/Section'
+import globalStyles from './Global.scss'
 
 const IndexPage: NextPage = () => {
   return (
@@ -78,13 +79,11 @@ const IndexPage: NextPage = () => {
         }`}}/>
       </Head>
       <Hero />
-      <p>
-        Work in progress...
-      </p>
-      <footer>
-        <hr />
-        <span>(Footer)</span>
-      </footer>
+      <Section>
+        <h2>Current estimates suggest that we have <span className={globalStyles.redCallout}>5 years</span> left to address climate change</h2>
+        <p>This is just a typography example, the real content will come later.</p>
+      </Section>
+      <div style={{marginTop: '200px'}} />
     </div>
   )
 }
