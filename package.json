@@ -10,14 +10,20 @@
   },
   "dependencies": {
     "@blueprintjs/core": "^3.24.0",
+    "@nivo/bar": "^0.61.1",
+    "@nivo/pie": "^0.61.1",
     "@nivo/stream": "^0.61.1",
+    "@types/classnames": "^2.2.10",
     "@zeit/next-sass": "^1.0.1",
+    "chart.js": "^2.9.3",
+    "classnames": "^2.2.6",
     "isomorphic-unfetch": "3.0.0",
     "next": "latest",
     "next-build-id": "^3.0.0",
     "next-fonts": "^1.0.3",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
+    "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
