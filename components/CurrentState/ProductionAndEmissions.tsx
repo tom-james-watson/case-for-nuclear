@@ -67,9 +67,7 @@ export default function ProductionAndEmissions() {
           </Button>
         </ButtonGroup>
       </div>
-      <div style={{height: 500, marginTop: 40, marginBottom: 40}}>
-        <Doughnut data={data} />
-      </div>
+      <Doughnut data={data} />
     </>
   )
 }

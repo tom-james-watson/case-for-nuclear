@@ -23,6 +23,7 @@
     "next-fonts": "^1.0.3",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
+    "react-background-video-player": "^1.1.6",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.12.0"
   },
