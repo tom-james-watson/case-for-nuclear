@@ -8,11 +8,11 @@ Work-in-progress landing page for arguing the case for nuclear as a source of lo
 Install dependencies:
 
 ```bash
-yarn
+npm i
 ```
 
 Run the site in development mode:
 
 ```bash
-yarn dev
+npm run dev
 ```

@@ -6,7 +6,7 @@
     "build": "next build",
     "export": "next export",
     "lint": "eslint --ext .js,.ts,.tsx .",
-    "precommit": "yarn lint"
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "@blueprintjs/core": "^3.24.0",
