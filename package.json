@@ -12,7 +12,7 @@
     "@blueprintjs/core": "^3.24.0",
     "@types/classnames": "^2.2.10",
     "@zeit/next-sass": "^1.0.1",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "classnames": "^2.2.6",
     "isomorphic-unfetch": "3.0.0",
     "next-build-id": "^3.0.0",
